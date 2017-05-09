@@ -2,6 +2,7 @@
 A node.JS based RESTful API Automation Test Framework
 
 Installation:
+npm install
 npm install -g jasmine-node
 
 Execution:
