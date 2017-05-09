@@ -1,6 +1,6 @@
 var frisby = require('frisby');
 
-//1
+//TC 1
 frisby.create('Ensure we are dealing with a teapot')
   .get('http://httpbin.org/status/418')
   .expectStatus(418)
