@@ -1,0 +1,11 @@
+{
+  "name": "rest_tester",
+  "author": "Patrick McCarthy",
+  "main": "rest_service_spec.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "frisby": "latest",
+    "jasmine-node": "latest",
+    "jasmine": "latest"
+  }
+}
