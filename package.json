@@ -4,6 +4,7 @@
   "main": "rest_service_spec.js",
   "version": "0.0.1",
   "dependencies": {
-    "frisby": "*"
+    "frisby": "*",
+    "xml2js": "*"
   }
 }
