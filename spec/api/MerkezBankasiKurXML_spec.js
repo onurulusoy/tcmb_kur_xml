@@ -40,7 +40,7 @@ frisby.create('Verification of US DOLLAR Sytnax').waits(2000)
 .toss()
 
 //TC 5
-frisby.create('Verify that US DOLLAR ForexBuying Value is greater than 3').waits(2000)
+frisby.create('Verify that US DOLLAR ForexBuying Value is greater than 3 TL').waits(2000)
   .get(URL_TCMB).after(function (err, res, body) {
         var parser = new xml2js.Parser();
         parser.parseString(body, function (err, result) {
