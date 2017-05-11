@@ -1,5 +1,5 @@
 # nodejs_restful_api
-A node.JS based RESTful API Automation Test Framework
+A node.JS based RESTful API Automation Test Framework to verify http://www.tcmb.gov.tr/kurlar/today.xml
 
 Installation:
 npm install
