@@ -16,9 +16,9 @@ frisby.create('XML stylesheet verification').waits(2000)
     .toss()
 
 //TC 3
-frisby.create('Verify that the response < 100 ms').waits(2000)
+frisby.create('Verify that the response < 500 ms').waits(2000)
     .get(URL_TCMB)
-    .expectMaxResponseTime(100).expectStatus(200)
+    .expectMaxResponseTime(500).expectStatus(200)
     .toss()
 
 //TC 4
