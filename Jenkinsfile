@@ -1,6 +1,6 @@
 node {
    stage('Checkout') { // for display purposes
-      git scm
+      checkout scm
    }
    stage('Build') {
          sh 'npm install'
