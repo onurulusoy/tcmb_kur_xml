@@ -11,5 +11,6 @@ node {
    }
    stage('Results') {
       junit 'reports/*.xml'
+      archive 'reports/*.xml'
    }
 }
